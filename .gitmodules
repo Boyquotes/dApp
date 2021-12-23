@@ -1,0 +1,3 @@
+[submodule "erc20"]
+	path = erc20
+	url = git@github.com:Play2Plant/erc20.git

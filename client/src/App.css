@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  width:300px;
+  margin: 3em auto;
+  padding: 3em;
+  background: #232a35;
+  color: #5ced86;
+  border: 1px solid black;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.leafMonney{
+  color: green;
+  font-weight: bold;
+}
+.imageTreeNFT{
+  padding: 2em 0;
+}
+.addressUser{
+  font-size: 10px;
+  text-align: rigth;
+}
