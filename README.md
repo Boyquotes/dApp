@@ -4,9 +4,14 @@ Build with truffle and reactJS
 
 ![screenshot](screenshot.png)
 
-## Installation
+## Installation without solidity contract
 ```
 git clone git@github.com:Play2Plant/dApp-unbox.git
+```
+
+## Installation without solidity contract
+```
+git clone --recurse-submodules git@github.com:Play2Plant/dApp-unbox.git
 ```
 
 ## Install client dependencies
