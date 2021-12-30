@@ -18,6 +18,7 @@ class App extends Component {
       // Get the contract instance.
       const networkId = await web3.eth.net.getId();
       const deployedNetwork = LeafContract.networks[networkId];
+      console.log(deployedNetwork);
       const leafContractInstance = await new web3.eth.Contract(
         LeafContract.abi,
         deployedNetwork && deployedNetwork.address,
@@ -76,6 +77,7 @@ class App extends Component {
         </div>
 
         <div className="addressUser">{this.state.accountUser}</div>
+        <div className="addressUser">Contract : {this.state.leafContractInstance.options.address}</div>
         <h2>ADMIN</h2>
         <button onClick={this.mintLeaf}>Minter</button>
 
