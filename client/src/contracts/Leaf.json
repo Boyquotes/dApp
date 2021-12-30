@@ -7967,11 +7967,11 @@
     "version": "0.8.11+commit.d7f03943.Emscripten.clang"
   },
   "networks": {
-    "5777": {
+    "3": {
       "events": {},
       "links": {},
-      "address": "0x52b3CB0a001FB651Eb4CF6b0173389660ae151f1",
-      "transactionHash": "0xca018673c3d509e1fae7397038fdd7878b7c607aeae7d90b5c207c8e22d25fc1"
+      "address": "0xC19BeeD63729AEE8be68657F7AE666a7e13671DB",
+      "transactionHash": "0xa1d2a9b4c25a4edf1abb66e0b64520095ca051d631d69b88bb787148cfdf81af"
     }
   },
   "schemaVersion": "3.4.3",
