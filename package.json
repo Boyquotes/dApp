@@ -1,0 +1,28 @@
+{
+  "name": "erc20",
+  "version": "1.0.0",
+  "description": "ERC20 smart contract of the Ethereum based $LEAF Token",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Play2Plant/erc20.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Play2Plant/erc20/issues"
+  },
+  "homepage": "https://github.com/Play2Plant/erc20#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.1",
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "dotenv": "^10.0.0"
+  }
+}
